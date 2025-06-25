@@ -1,39 +1,29 @@
-# elderly-care-management
-A user-friendly application designed to help families manage and monitor the care of their elderly loved ones.
+# home-device-management
 
-## Tech Stack :
-- Backend/Frontend - (Node.js & React.js)  
-- Database - (PostgreSQL)  
+A React Native mobile app that allows users to simulate control of smart devices such as adjusting light brightness and thermostat temperature. The app synchronizes device states in real time using Firebase Firestore.
+
+## Tech Stack
+
+- **Backend/Frontend**: React Native / JavaScript  
+- **Database**: Firebase Firestore  
+- **Native Modules**: @react-native-picker/picker, React Native StyleSheet, React Native CLI  
 
 ## Features
-- Care Plans – create and manage personalized daily care routines.  
-- Medication Reminders – automated push & SMS notifications for timely doses.  
-- Emergency Contact – one-tap alerts to notify designated family members or services.  
-- Activity Logging – record meals, exercises, appointments and generate reports.  
+
+- Device Control: turn lights on/off and adjust their brightness with a slider; control a thermostat’s temperature  
+- Bottom Navigation Bar: switch between Home, Settings (dark-mode toggle), and Manage Devices screens  
+- Visual Feedback: lamp image tints and changes opacity as the brightness slider moves  
+- Device Management: add new devices (name + type), edit existing ones, and store configurations in Firebase Firestore for real-time synchronization  
 
 ## Installation & Setup
-1.Install Node.js & npm  
-    Download and install from https://nodejs.org (LTS version).  
 
-2.Clone the repo (or copy the project folder):  
-    git clone https://github.com/your-org/elderly-care-management.git  
-    cd elderly-care-management  
-    Install dependencies:  
-        npm install  
-
-3.Configure environment variables:  
-    Create a `.env` file 
-
-4.Run database migrations & start backend:  
-    npm run migrate  
-    npm start  
-
-5.Start frontend:  
-    cd frontend  
-    npm start  
-
-## Live Demo
-(google drive link to video)
-
-## Screenshots
-(google drive link to screenshot)
+1. **Install Node.js & npm** (LTS) from https://nodejs.org  
+2. **Install Java Development Kit (JDK)** from Adoptium (https://adoptium.net) and set the `JAVA_HOME` environment variable  
+3. **Install Android Studio & SDK**  
+   - In Android Studio → SDK Manager, install Android SDK, Platform-Tools, and Android Emulator  
+   - Create an Android Virtual Device (AVD) in AVD Manager  
+4. **Clone the repository**  
+   ```bash
+   git clone https://github.com/ismaelAD/home-device-management.git
+   cd home-device-management
+   npm install
