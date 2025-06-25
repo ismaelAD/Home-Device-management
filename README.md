@@ -2,9 +2,8 @@
 A user-friendly application designed to help families manage and monitor the care of their elderly loved ones.
 
 ## Tech Stack :
-- Backend/Frontend - (Node.js / Express.js & React.js)  
+- Backend/Frontend - (Node.js & React.js)  
 - Database - (PostgreSQL)  
-- Other - (Stripe for subscription management, Firebase Cloud Messaging, Twilio SMS reminders)  
 
 ## Features
 - Care Plans – create and manage personalized daily care routines.  
@@ -23,7 +22,7 @@ A user-friendly application designed to help families manage and monitor the car
         npm install  
 
 3.Configure environment variables:  
-    Create a `.env` file and set DB_URL, JWT_SECRET, STRIPE_KEY, TWILIO_CREDENTIALS  
+    Create a `.env` file 
 
 4.Run database migrations & start backend:  
     npm run migrate  
