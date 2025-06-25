@@ -7,6 +7,7 @@ import HomeScreen from './screens/HomeScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import ManageDevicesScreen from './screens/ManageDevicesScreen';
 
+
 enableScreens();
 const Tab = createBottomTabNavigator();
 const icons = {
